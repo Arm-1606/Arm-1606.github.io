@@ -1,0 +1,124 @@
+.game {
+  background-image: url("../img/bcg_game.jpg");
+}
+
+.game__rules {
+  background-color: #121212;
+  color: #fff;
+  padding: 60px 40px;
+  text-align: center;
+  height: 260px;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+.game__rules-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.game__rules-text {
+  font-size: 26px;
+  width: 520px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.game__rules-button {
+  margin-top: 40px;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  font-size: 26px;
+  padding: 10px 30px;
+  color: #fff;
+}
+
+.game__rules-button:focus {
+  outline: none;
+}
+
+.game__container {
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+
+.bottle {
+  width: auto;
+  height: 120px;
+  position: relative;
+  top: 42.2%;
+  left: 31%;
+  margin-left: 20px;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+.paper-ball {
+  z-index: 999;
+  background-image: url("../img/paper_ball.png");
+  background-size: cover;
+  cursor: pointer;
+  height: 30px;
+  width: 33px;
+  position: absolute;
+  top: 90%;
+  left: 90%;
+}
+
+.timer {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  font-size: 30px;
+  padding: 20px 100px 20px 20px;
+  color: #fff;
+  background-color: #121212;
+}
+
+@media screen and (max-width: 1900px) {
+  .bottle {
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .bottle {
+    top: 38%;
+  }
+}
+
+@media screen and (max-width: 1740px) {
+  .bottle {
+    top: 37%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .bottle {
+    top: 41%;
+    left: 10%;
+    height: 70px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .game__rules-title {
+    font-size: 20px;
+  }
+  .game__rules-text {
+    font-size: 16px;
+  }
+  .bottle {
+    margin-left: 4px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .bottle {
+    margin-left: 0;
+    left: 2%;
+  }
+}

@@ -1,0 +1,24 @@
+.congratulation {
+  background-image: url("../img/bcg_main.jpg");
+  text-align: center;
+  color: #fff;
+}
+
+.congratulation__container {
+  height: 360px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+          box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+}
+
+.congratulation__title {
+  font-size: 40px;
+}
+
+.congratulation__text {
+  margin: 40px auto;
+  font-size: 30px;
+}
+
+.congratulation__text p {
+  text-shadow: 2px 2px 0px rgba(50, 50, 50, 0.75);
+}

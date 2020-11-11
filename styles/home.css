@@ -1,0 +1,43 @@
+.home {
+  background-image: url("../img/bcg_main.jpg");
+}
+
+.home__container {
+  height: 320px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+          box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+}
+
+.home__title {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 0px rgba(50, 50, 50, 0.75);
+}
+
+.home__button {
+  font-size: 28px;
+  background-color: #ceea8d;
+  border-radius: 20px;
+  border: none;
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #121212;
+  text-align: center;
+  padding: 23px 44px;
+}
+
+.home__button:hover, .home__button:focus {
+  -webkit-box-shadow: 0px 0px 30px 0px #ceea8d;
+          box-shadow: 0px 0px 30px 0px #ceea8d;
+  outline: none;
+}

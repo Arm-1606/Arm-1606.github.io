@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-position: top;
+  background-size: cover;
+}
+
+* {
+  font-family: 'Lobster', cursive;
+}
+
+.card {
+  max-width: 100%;
+  max-height: 100%;
+  width: 600px;
+  border-radius: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
